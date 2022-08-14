@@ -1,4 +1,4 @@
-Intent zvx = getPackageManager().getLaunchIntentForPackage("com.packge");
+Intent zvx = getPackageManager().getLaunchIntentForPackage("com.package");
 if (zvx != null) {
  // Start
 	startActivity(zvx);
